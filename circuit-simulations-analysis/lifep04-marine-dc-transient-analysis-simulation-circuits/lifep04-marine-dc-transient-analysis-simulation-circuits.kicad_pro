@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "liefp04-marine-dc-transient-analysis-simulation-circuits.kicad_pro",
+    "filename": "lifep04-marine-dc-transient-analysis-simulation-circuits.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -410,7 +410,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "liefp04-marine-dc-transient-analysis-simulation-circuits.wbk"
+      "workbook_filename": "lifep04-marine-dc-transient-analysis-simulation-circuits.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -419,8 +419,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "liefp04-marine-dc-transient-analysis-simulation-circuits.kicad_sch",
-        "name": "Root",
+        "filename": "lifep04-marine-dc-transient-analysis-simulation-circuits.kicad_sch",
+        "name": "lifep04-marine-dc-transient-analysis-simulation-circuits",
         "uuid": "8ee89d25-0260-4689-a3bc-2207fab472f1"
       }
     ],
@@ -430,7 +430,7 @@
   "sheets": [
     [
       "8ee89d25-0260-4689-a3bc-2207fab472f1",
-      "Root"
+      "lifep04-marine-dc-transient-analysis-simulation-circuits"
     ]
   ],
   "text_variables": {},

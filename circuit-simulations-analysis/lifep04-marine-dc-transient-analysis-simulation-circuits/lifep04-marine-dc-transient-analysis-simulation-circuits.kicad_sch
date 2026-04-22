@@ -2685,6 +2685,26 @@
 		)
 		(uuid "3d23c057-aced-4d02-9f48-540bd88ff43b")
 	)
+	(text "Lifep04-marine-dc-transient-analysis-simulation"
+		(exclude_from_sim no)
+		(at 212.344 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "744b197d-e473-407e-9de8-f5bdf92faf74")
+	)
+	(text "April 2026"
+		(exclude_from_sim no)
+		(at 211.836 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d116d6f-10e5-46e4-84dc-d2d04b8223e7")
+	)
 	(text "relay/contactor "
 		(exclude_from_sim no)
 		(at 159.766 29.972 0)
@@ -3376,7 +3396,7 @@
 			(uuid "ed4704b1-862b-4fb0-8b16-e99922c729a1")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "#PWR01")
 					(unit 1)
@@ -3457,7 +3477,7 @@
 			(uuid "03cb6768-1013-42e0-8e8d-984b589bf252")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "R5_magnetic_loss1")
 					(unit 1)
@@ -3573,7 +3593,7 @@
 			(uuid "6f4c164a-72ec-46e5-b625-73a493ac7a16")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "LifeP04-4s2P1")
 					(unit 1)
@@ -3655,7 +3675,7 @@
 			(uuid "0b195cfa-4018-48a6-a5c1-35dc5e2f21cd")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "L5_motor_inductance1")
 					(unit 1)
@@ -3737,7 +3757,7 @@
 			(uuid "363c11bf-c307-4893-b01d-f550e7a3d375")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "C3")
 					(unit 1)
@@ -3818,7 +3838,7 @@
 			(uuid "e8956111-3328-4954-887d-1dfc9f3d9bee")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "L1_batt1")
 					(unit 1)
@@ -3901,7 +3921,7 @@
 			(uuid "c931e7e2-8185-4133-9d18-414e46e549ac")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "R1_batt_dc_internal1")
 					(unit 1)
@@ -3981,7 +4001,7 @@
 			(uuid "dfe38d6a-c1cb-47aa-97d0-8c8684d6f0fe")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "R4_cable_loop_resistance1")
 					(unit 1)
@@ -4011,7 +4031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5nF"
+		(property "Value" "5n"
 			(at 211.328 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4055,6 +4075,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1b983ff1-cf84-4e77-8dcd-53ca9c6142ab")
 		)
@@ -4062,7 +4104,7 @@
 			(uuid "f6b2bc9d-e6f7-4da3-b4ff-0a015449083a")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "C2_interwinding_capacitance1")
 					(unit 1)
@@ -4169,7 +4211,7 @@
 				(justify left)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=12 td=5m tr=2n tf=2n tw=5m per=10m"
+		(property "Sim.Params" "y1=0 y2=12 td=5m tr=2n tf=2n tw=25m per=100m"
 			(at 162.4302 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4186,7 +4228,7 @@
 			(uuid "2cb853ac-6520-4f2d-8977-661450340c4c")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "V1")
 					(unit 1)
@@ -4269,7 +4311,7 @@
 			(uuid "c28c021e-2358-45f4-a24e-c44c09e4a78d")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "L4_relay_drive_coil1")
 					(unit 1)
@@ -4352,7 +4394,7 @@
 			(uuid "2802beac-513d-4b80-889f-07c6921ec7f9")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "R2_bat_losses1")
 					(unit 1)
@@ -4433,7 +4475,7 @@
 			(uuid "b78e693e-634a-4467-b447-8fbe54b1899f")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "R3_fuse-class_t1")
 					(unit 1)
@@ -4513,7 +4555,7 @@
 			(uuid "ae70c2d6-06b7-40ec-b064-8899b6364b96")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "L2_cable_loop_inductance1")
 					(unit 1)
@@ -4593,7 +4635,7 @@
 			(uuid "467f6a9e-f346-42f3-97cc-c96ae0fa5392")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "R6_motor_winding1")
 					(unit 1)
@@ -4675,7 +4717,7 @@
 			(uuid "d5c5199a-07f0-4517-9276-6911c9d4bc66")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "C1")
 					(unit 1)
@@ -4753,7 +4795,7 @@
 			(uuid "665bc649-beb6-4fd7-8c40-aa5e422213fa")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "#PWR02")
 					(unit 1)
@@ -4882,7 +4924,7 @@
 			(uuid "c5fc3fe5-5e1f-49c9-9556-a842d7fad4c4")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "S1")
 					(unit 1)
@@ -4901,7 +4943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edb3bbc4-627d-46b7-a421-4fa122c77d7e")
-		(property "Reference" "D1_motor_flyback"
+		(property "Reference" "D1_motor_flyback1"
 			(at 240.284 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4984,9 +5026,9 @@
 			(uuid "4b03aaf5-1ef4-4f7f-a0b8-45293f53f6ae")
 		)
 		(instances
-			(project "liefp04-marine-dc-transient-analysis-simulation-circuits"
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
-					(reference "D1_motor_flyback")
+					(reference "D1_motor_flyback1")
 					(unit 1)
 				)
 			)

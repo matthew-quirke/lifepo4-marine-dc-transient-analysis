@@ -5,17 +5,17 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 500u 300m",
+        ".tran 10m 200m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
-        ".kicad esavenone"
+        ".probe allp"
       ],
       "dottedSecondary": true,
       "margins": {
         "bottom": 45,
         "left": 70,
-        "right": 70,
+        "right": 160,
         "top": 30
       },
       "measurements": [],
@@ -23,21 +23,26 @@
       "traces": [
         {
           "color": "rgb(255, 127, 0)",
-          "signal": "I(L5_motor_inductance1)",
-          "trace_type": 258
+          "signal": "P(C2_interwinding_capacitance1)",
+          "trace_type": 272
         },
         {
           "color": "rgb(152, 78, 163)",
-          "signal": "I(R6_motor_winding1)",
-          "trace_type": 258
+          "signal": "P(D1_motor_flyback1)",
+          "trace_type": 272
         },
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/motor)",
+          "signal": "V(/cable)",
           "trace_type": 257
         },
         {
           "color": "rgb(55, 126, 184)",
+          "signal": "V(/motor)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
           "signal": "V(/relay)",
           "trace_type": 257
         }
