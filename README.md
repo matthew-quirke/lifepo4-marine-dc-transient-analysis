@@ -50,12 +50,26 @@ Four mechanisms were identified as the dominant sources of transient events:
 
 These mechanisms can generate very large transient currents and voltages, often far exceeding steady-state operating conditions, particularly in low-impedance LiFePO₄ systems.
 
-*Suggested oscilloscope captures:*
+![ngspice-transient-simulation.png](images/scope/windlass-inrush-grey.jpg)
+
 - Inrush current waveform at motor start
+
+![ngspice-transient-simulation.png](images/scope/windlass-inrush+contact_grey.jpg)
+  
 - Contact bounce showing multiple current spikes
+
+![ngspice-transient-simulation.png](images/scope/ewinch-relay-coil-engagement-transients-01.jpg)
+
 - Relay coil flyback spike on control line
+
+![ngspice-transient-simulation.png](images/scope/ewinch-relay-coil-engagement-transients-02.jpg)
+  
 - Motor back-EMF spike at switch-off
 
+![ngspice-transient-simulation.png](images/scope/ewinch-relay-coil-disengagement-transients-05.jpg)
+
+ewinch-relay-coil-disengagement-transients-05.jpg
+  
 ---
 
 ## 3. Key System Change: Loss of Damping
