@@ -21,7 +21,9 @@ Following the upgrade, switching events became more aggressive, with:
 
 The primary change was not the loads, but the removal of battery internal resistance, which previously provided damping.
 
-*Suggested image: Oscilloscope capture — AGM vs LiFePO₄ transient comparison under identical load switching*
+![ngspice-transient-simulation.png](images/diagrams/ngspice-transient-simulation.png)
+
+*Simulating inductive transients LifeP04 in NGSpice/kicadtical*
 
 ---
 
