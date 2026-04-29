@@ -23,7 +23,7 @@ The primary change was not the loads, but the removal of battery internal resist
 
 ![ngspice-transient-simulation.png](images/diagrams/ngspice-transient-simulation.png)
 
-*Simulating inductive transients LifeP04 in NGSpice/kicadtical*
+*Inductive Switching Transients in LiFePO₄ System — NGSpice Simulation*
 
 ---
 
