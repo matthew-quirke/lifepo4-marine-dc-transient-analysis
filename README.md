@@ -62,7 +62,7 @@ These mechanisms can generate very large transient currents and voltages, often 
 
 - Relay coil flyback spike on control line
 
-![Motor back-EMF spike at switch-off](images/scope/ewinch-relay-coil-engagement-transients-02.jpg)
+![Motor back-EMF spike at switch-off](images/scope/ewinch-relay-coil-disengagement-transients-02.jpg)
   
 - Motor back-EMF spike at switch-off
 
