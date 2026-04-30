@@ -2258,10 +2258,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:VPULSE"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Simulation_SPICE:VPWL"
 			(pin_names
 				(offset 0.0254)
 			)
@@ -2281,7 +2278,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "VPULSE"
+			(property "Value" "VPWL"
 				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2314,7 +2311,7 @@
 					)
 				)
 			)
-			(property "Description" "Voltage source, pulse"
+			(property "Description" "Voltage source, piece-wise linear"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2326,17 +2323,6 @@
 				)
 			)
 			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "PULSE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2359,7 +2345,7 @@
 					(justify left)
 				)
 			)
-			(property "Sim.Params" "y1=0 y2=1 td=2n tr=2n tf=2n tw=50n per=100n"
+			(property "Sim.Params" "pwl=\"0 -1 50n -1 51n 0 97n 1 171n -1 200n -1\""
 				(at 2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2368,6 +2354,17 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+				)
+			)
+			(property "Sim.Type" "PWL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "simulation"
@@ -2381,11 +2378,10 @@
 					)
 				)
 			)
-			(symbol "VPULSE_0_0"
+			(symbol "VPWL_0_0"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy -1.397 -0.762) (xy -1.143 0.762) (xy -0.127 0.762) (xy 0.127 -0.762) (xy 1.143 -0.762)
-						(xy 1.397 0.762) (xy 2.032 0.762)
+						(xy -1.778 -1.016) (xy -0.762 1.016) (xy -0.254 0) (xy 0.762 0) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2404,7 +2400,7 @@
 					)
 				)
 			)
-			(symbol "VPULSE_0_1"
+			(symbol "VPWL_0_1"
 				(circle
 					(center 0 0)
 					(radius 2.54)
@@ -2417,7 +2413,7 @@
 					)
 				)
 			)
-			(symbol "VPULSE_1_1"
+			(symbol "VPWL_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -3316,7 +3312,7 @@
 		(uuid "8137e1fa-1ae5-403e-ade2-c18678eb4e9c")
 	)
 	(label "relay"
-		(at 146.05 49.53 0)
+		(at 170.18 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4113,130 +4109,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VPULSE")
-		(at 162.56 49.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ffaf033-adec-49f9-9cc8-a833f41c5e9e")
-		(property "Reference" "V1"
-			(at 162.4302 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VPULSE"
-			(at 162.4302 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 162.56 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, pulse"
-			(at 162.56 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 162.56 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "PULSE"
-			(at 162.56 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 162.56 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Params" "y1=0 y2=12 td=5m tr=2n tf=2n tw=25m per=100m"
-			(at 162.4302 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ee2c9f2-81a6-4c41-9e05-84a3c9b05ae8")
-		)
-		(pin "2"
-			(uuid "2cb853ac-6520-4f2d-8977-661450340c4c")
-		)
-		(instances
-			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
-				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
-					(reference "V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "L_1")
 		(lib_id "Device:L")
 		(at 144.78 66.04 0)
@@ -4478,6 +4350,130 @@
 			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
 				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
 					(reference "R3_fuse-class_t1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VPWL")
+		(at 162.56 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951981c5-59e2-4eea-bb15-984a8afada25")
+		(property "Reference" "V2"
+			(at 162.4302 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VPWL"
+			(at 162.4302 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 162.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, piece-wise linear"
+			(at 162.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 162.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 162.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Params" "pwl=\"0 0 20u 0 22u 13 42u 13 44u 0 68u 0 70u 13 96u 13 98u 0 132u 0 134u 13 178u 1 180u 0 238u 0 240u 13 318u 13 320u 0 430u 0 432u 13 575u 13 577u 0 740u 0 742u 13 920u 13 922u 0 990u 0 1m 13 11m 13 11.02m 0 11.055m 0 11.057m 13 11.095m 13 11.097m 0 11.16m 0 11.162m 13 11.21m 13 11.212m 0 11.3m 0 11.302m 13 11.335m 13 11.337m 0 11.47m 0 11.472m 13 11.49m 13 11.492m 0 11.7m 0\""
+			(at 162.4302 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "PWL"
+			(at 162.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dba9db7-1b38-4365-867e-d645b1688b58")
+		)
+		(pin "2"
+			(uuid "6eef9860-700c-45ef-832f-66f3811c9dd3")
+		)
+		(instances
+			(project "lifep04-marine-dc-transient-analysis-simulation-circuits"
+				(path "/8ee89d25-0260-4689-a3bc-2207fab472f1"
+					(reference "V2")
 					(unit 1)
 				)
 			)
