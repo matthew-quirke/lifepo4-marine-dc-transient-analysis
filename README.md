@@ -14,12 +14,23 @@ The system includes high-current inductive loads:
 - Refrigeration compressors
 - DC pumps and auxiliary motors
 
-Following the upgrade, switching events became more aggressive, with:
-- Sharper voltage spikes
-- Increased electrical noise
-- Greater stress on switching devices
-
-The primary change was not the loads, but the removal of battery internal resistance, which previously provided damping.
+Does the lower internal impedance of LiFePO₄ batteries, compared to AGM, produce larger or faster electrical transients due to reduced system damping?
+What transient voltages and currents are present in a real marine LiFePO₄ system?
+Including:
+- Inrush current
+- Contact bounce
+- Relay coil collapse
+- Motor back-EMF
+Can these transients damage or interfere with connected equipment, switching devices, or the lithium battery itself?
+Which suppression methods are effective in low-impedance LiFePO₄ systems?
+Including:
+- TVS diodes
+- Flyback diodes
+- RC snubbers
+- Added series impedance
+- Pre-charge or soft-start methods
+Does cable inductance provide enough natural current limiting, or does the low impedance of LiFePO₄ batteries dominate transient behaviour and reduce suppression effectiveness?
+How are similar transient and inrush issues managed in EV and industrial DC systems, and can those strategies be applied to marine LiFePO₄ installations?
 
 ![ngspice-transient-simulation.png](images/diagrams/ngspice-transient-simulation.png)
 
