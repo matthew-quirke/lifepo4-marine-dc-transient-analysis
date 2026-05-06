@@ -14,6 +14,8 @@ The system includes high-current inductive loads:
 - Refrigeration compressors
 - DC pumps and auxiliary motors
 
+Key questions i wanted to answer were:
+
 Does the lower internal impedance of LiFePO₄ batteries, compared to AGM, produce larger or faster electrical transients due to reduced system damping?
 What transient voltages and currents are present in a real marine LiFePO₄ system?
 Including:
@@ -31,6 +33,7 @@ Including:
 - Pre-charge or soft-start methods
 Does cable inductance provide enough natural current limiting, or does the low impedance of LiFePO₄ batteries dominate transient behaviour and reduce suppression effectiveness?
 How are similar transient and inrush issues managed in EV and industrial DC systems, and can those strategies be applied to marine LiFePO₄ installations?
+
 
 ![ngspice-transient-simulation.png](images/diagrams/ngspice-transient-simulation.png)
 
