@@ -68,7 +68,7 @@ These mechanisms can generate very large transient currents and voltages, often 
 
 ![ewinch-relay-coil-disengagement](images/scope/ewinch-relay-coil-disengagement-transients-05.jpg)
 
-- ewinch disengagement transients  
+- Electric winch disengagement transients  
 ---
 
 ## 3. Key System Change: Loss of Damping
