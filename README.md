@@ -21,7 +21,7 @@ The system under investigation includes several high-current inductive loads com
 
 These loads generate significant switching and inductive transient events, particularly when combined with the very low internal impedance of LiFePO₄ battery systems.
 
-## 1.1 Key questions i wanted to answer were:
+## 1.1 Key questions I aimed to answer were:
 
 - Does the lower internal impedance of LiFePO₄ batteries, compared to AGM batteries, result in larger or faster electrical transients due to reduced system damping?
 
