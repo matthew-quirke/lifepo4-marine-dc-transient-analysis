@@ -23,6 +23,7 @@ Including:
 - Contact bounce
 - Relay coil collapse
 - Motor back-EMF
+
 Can these transients damage or interfere with connected equipment, switching devices, or the lithium battery itself?
 
 Which suppression methods are effective in low-impedance LiFePO₄ systems?
