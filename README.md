@@ -115,7 +115,7 @@ At high frequency, wiring inductance dominates, limiting transient absorption.
 Initial di/dt is set primarily by inductance,  
 but peak voltage and ringing depend on damping.
 
-*Suggested diagrams:*
+*TODO diagrams:*
 - RLC comparison: damped (AGM) vs underdamped (LiFePO₄)
 - Ringing waveform comparison
 
