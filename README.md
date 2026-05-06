@@ -82,7 +82,26 @@ These mechanisms can generate very large transient currents and voltages, often 
 
 ![Contact bounce showing multiple current spikes](images/scope/windlass-inrush+contact_grey.jpg)
   
-- Contact bounce showing multiple current spikes
+- Inrush current with contact bounce
+
+Oscilloscope capture showing the initial inrush event and contact bounce during load energisation.
+
+Time scale: 1 ms/div
+Event duration shown: approximately 2 ms
+Voltage scale: 2 V/div
+Measured shunt voltage: approximately 11.8 V pk-pk
+Current shunt: 16 mΩ
+
+Calculation:
+
+I = V / R
+I = 11.8 V / 0.016 Ω
+I ≈ 737 A pk-pk
+
+So the measured transient current during the bounce/inrush event was approximately:
+
+≈ 737 A peak-to-peak
+
 
 ![Relay coil flyback spike on control line](images/scope/ewinch-relay-coil-engagement-transients-01.jpg)
 
