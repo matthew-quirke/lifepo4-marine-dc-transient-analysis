@@ -11,7 +11,7 @@ This investigation examines transient behaviour in a 12 V marine DC system follo
 The motivation for this arose after reading the paper:
 
 [“The Challenge of Surge Protection for LiFePO₄ Batteries Using Varistors”
-by Konstantinos M. Gektidis and Thomas Tsovilis](https://ieeexplore.ieee.org/document/10848368)
+by Konstantinos M. Gektidis and Thomas Tsovilis ieeexplore.ieee.org/document/10848368 ](https://ieeexplore.ieee.org/document/10848368)
 
 The system under investigation includes several high-current inductive loads commonly found in marine environments, including:
 - Windlasses
