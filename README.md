@@ -14,7 +14,7 @@ The system includes high-current inductive loads:
 - Refrigeration compressors
 - DC pumps and auxiliary motors
 
-Key questions i wanted to answer were:
+## 1.1 Key questions i wanted to answer were:
 
 Does the lower internal impedance of LiFePO₄ batteries, compared to AGM, produce larger or faster electrical transients due to reduced system damping?
 What transient voltages and currents are present in a real marine LiFePO₄ system?
@@ -24,6 +24,7 @@ Including:
 - Relay coil collapse
 - Motor back-EMF
 Can these transients damage or interfere with connected equipment, switching devices, or the lithium battery itself?
+
 Which suppression methods are effective in low-impedance LiFePO₄ systems?
 Including:
 - TVS diodes
@@ -37,7 +38,7 @@ How are similar transient and inrush issues managed in EV and industrial DC syst
 
 ![ngspice-transient-simulation.png](images/diagrams/ngspice-transient-simulation.png)
 
-*Inductive Switching Transients in LiFePO₄ System — NGSpice Simulation*
+*Modelling Inductive Switching Transients in LiFePO₄ System — NGSpice Simulation*
 
 ---
 
