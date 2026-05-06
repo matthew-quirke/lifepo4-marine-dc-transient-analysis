@@ -8,7 +8,7 @@
 
 This investigation examines transient behaviour in a 12 V marine DC system following conversion from AGM lead-acid batteries to LiFePO₄ battery banks.
 
-The motivation for this work arose after reading the paper:
+The motivation for this arose after reading the paper:
 
 [“The Challenge of Surge Protection for LiFePO₄ Batteries Using Varistors”
 by Konstantinos M. Gektidis and Thomas Tsovilis](https://ieeexplore.ieee.org/document/10848368)
