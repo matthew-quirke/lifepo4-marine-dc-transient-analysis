@@ -49,7 +49,7 @@ These loads generate significant switching and inductive transient events, parti
 
 ![ngspice-transient-simulation.png](images/diagrams/ngspice-transient-simulation.png)
 
-[*Modelling Inductive Switching Transients in LiFePO₄ vs AGM — NGSpice Simulation*](circuit-simulations-analysis/output-waveforms)
+[*Modelling Inductive Switching Transients in LiFePO₄ vs AGM — NGSpice Simulation*](circuit-simulations-analysis/)
 
 ---
 
