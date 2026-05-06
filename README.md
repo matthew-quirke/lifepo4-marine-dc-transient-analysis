@@ -24,7 +24,7 @@ Including:
 - Relay coil collapse
 - Motor back-EMF
 
-Can these transients damage or interfere with connected equipment, switching devices, or the lithium battery itself?
+Are these transients of a size that is likely to damage or interfere with equipment, switching devices, or the lithium battery itself?
 
 Which suppression methods are effective in low-impedance LiFePO₄ systems?
 Including:
