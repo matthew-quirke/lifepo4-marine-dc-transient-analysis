@@ -32,7 +32,7 @@ These loads generate significant switching and inductive transient events, parti
   - Motor back-EMF events
 
 - Are these transients large enough to damage or interfere with:
-  - Connected electronics
+  - Critical marine navigation and safety systems, AIS, autopilot, MDF's
   - Switching devices
   - The lithium battery system itself?
 
