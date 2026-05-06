@@ -6,36 +6,46 @@
 
 ## 1. System Overview
 
-This investigation examines a 12 V marine DC system following conversion from AGM to LiFePO₄ battery banks.
+This investigation examines transient behaviour in a 12 V marine DC system following conversion from AGM lead-acid batteries to LiFePO₄ battery banks.
 
-The system includes high-current inductive loads:
-- Windlass (bidirectional, high inrush)
-- Electric winches (H-bridge control)
+The motivation for this work arose after reading the paper:
+
+*“The Challenge of Surge Protection for LiFePO₄ Batteries Using Varistors”*  
+by Konstantinos M. Gektidis and Thomas Tsovilis.
+
+The system under investigation includes several high-current inductive loads commonly found in marine environments, including:
+- Windlasses
+- Electric winches
 - Refrigeration compressors
 - DC pumps and auxiliary motors
 
+These loads generate significant switching and inductive transient events, particularly when combined with the very low internal impedance of LiFePO₄ battery systems.
+
 ## 1.1 Key questions i wanted to answer were:
 
-Does the lower internal impedance of LiFePO₄ batteries, compared to AGM, produce larger or faster electrical transients due to reduced system damping?
-What transient voltages and currents are present in a real marine LiFePO₄ system?
-Including:
-- Inrush current
-- Contact bounce
-- Relay coil collapse
-- Motor back-EMF
+- Does the lower internal impedance of LiFePO₄ batteries, compared to AGM batteries, result in larger or faster electrical transients due to reduced system damping?
 
-Are these transients of a size that is likely to damage or interfere with equipment, switching devices, or the lithium battery itself?
+- What transient voltages and currents are present in a real marine LiFePO₄ system during:
+  - Inrush current events
+  - Contact bounce
+  - Relay coil collapse
+  - Motor back-EMF events
 
-Which suppression methods are effective in low-impedance LiFePO₄ systems?
-Including:
-- TVS diodes
-- Flyback diodes
-- RC snubbers
-- Added series impedance
-- Pre-charge or soft-start methods
-Does cable inductance provide enough natural current limiting, or does the low impedance of LiFePO₄ batteries dominate transient behaviour and reduce suppression effectiveness?
-How are similar transient and inrush issues managed in EV and industrial DC systems, and can those strategies be applied to marine LiFePO₄ installations?
+- Are these transients large enough to damage or interfere with:
+  - Connected electronics
+  - Switching devices
+  - The lithium battery system itself?
 
+- Which suppression methods are effective in low-impedance LiFePO₄ systems, including:
+  - TVS diodes
+  - Flyback diodes
+  - RC snubbers
+  - Added series impedance
+  - Pre-charge and soft-start methods
+
+- Does cable inductance provide sufficient natural current limiting, or does the low impedance of LiFePO₄ batteries dominate transient behaviour and reduce suppression effectiveness?
+
+- How are similar transient and inrush problems addressed in EV and industrial DC systems, and can those strategies be adapted to marine LiFePO₄ installations?
 
 ![ngspice-transient-simulation.png](images/diagrams/ngspice-transient-simulation.png)
 
