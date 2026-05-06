@@ -40,7 +40,7 @@ Four mechanisms were identified as the dominant sources of transient events:
 - Multiple rapid make/break cycles
 - Produces repeated high di/dt pulses
 
-### 2.3 Inductance in Relay / Contactor Coils
+### 2.3 Inductance in Relay / Contactor Drive Coils
 - Coil energisation and de-energisation
 - Generates voltage spikes on control circuits
 
