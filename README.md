@@ -162,7 +162,7 @@ Observed effects:
 
 The battery did not effectively clamp these events due to wiring inductance.
 
-*Suggested captures:*
+*Todo captures:*
 - Motor terminal voltage during switch-off
 - Battery terminal voltage (comparison)
 - Differential measurement across relay contacts
@@ -221,7 +221,7 @@ Wiring inductance isolates the battery at high frequency.
 
 Correct placement is critical.
 
-*Suggested diagram: Suppression at battery vs at load*
+*Todo: Suppression at battery vs at load*
 
 ---
 
@@ -236,7 +236,7 @@ Correct placement is critical.
 - Minimise contact bounce
 - Use controlled switching / pre-charge
 
-*Suggested capture: Contact bounce transient waveform*
+*Todo capture: Contact bounce transient waveform*
 
 ---
 
